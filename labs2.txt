@@ -1,0 +1,25 @@
+Group Members:
+Marshall Hoffmann
+Xaitheng Yang
+
+Thoughts:
+	Tables Needed:
+		Inventory
+			Prices
+		Sales:
+			Receipt info
+		Accounting:
+			Upkeep
+				Employee
+				Supplies
+			Revenue
+Interactions: 
+	Employees:
+		Inventory
+		Sales
+	Managers:
+		Inventory
+		Sales
+		Accounting
+
+	Inventory table would interact with sales table, to keep track of items in stock. The sales table would interact with the inventory table to know how much an item costs when a sale is made.
